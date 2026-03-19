@@ -1,5 +1,6 @@
 # E-Commerce UI Project
 
+<!-- cSpell:ignore Shoppy -->
 ShoppyGlobe is a modern, responsive e-commerce front-end application built with React. It features dynamic product rendering, interactive UI components, and a clean, mobile-first design.
 
 ## Features
