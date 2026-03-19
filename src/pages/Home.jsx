@@ -26,11 +26,11 @@ function RotatingText() {
   }, [words.length]);
 
   return (
-    <section className="rotating-word">
+    <section className="rotating-word" >
       <p className="rotatingText-description">
         Buy anything from wide range of...
       </p>
-      <h2 style={{fontSize: "2rem", fontWeight: 900, padding:"10px" ,
+      <h2 style={{fontSize: "2rem", fontWeight: 900 ,
           color: "transparent", WebkitTextStroke: "2px #44A194",
           textShadow:"#A0D585",letterSpacing: "2px"
             }} className="rotating-word-flashing">{words[index]}</h2>

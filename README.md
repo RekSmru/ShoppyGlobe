@@ -23,7 +23,7 @@ A modern responsive e-commerce front-end built with React, featuring dynamic pro
 
 ## Technologies Used
 
-* React (Vite / CRA)
+* React 
 * React Router DOM
 * JavaScript 
 * CSS3 (Custom + Media Queries)
@@ -37,8 +37,8 @@ src
 │
 ├── components
 │   ├── Header.jsx
-│   ├── BookCard.jsx
-│   └── Layout.jsx
+│   ├── Header.css
+│   └── ProductItem.jsx
 │
 ├── pages
 │   ├── Home.jsx
