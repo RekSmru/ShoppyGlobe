@@ -84,6 +84,7 @@ cd ShoppyGlobe
 3. Install dependencies
 
 ```
+npm create vite@latest
 npm install
 npm install react-router-dom
 
