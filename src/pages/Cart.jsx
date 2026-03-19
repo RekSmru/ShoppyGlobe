@@ -106,7 +106,7 @@ function Cart() {
             onClick={() => navigate("/checkout")}
             className="checkout-btn"
           >
-            Proceed to Checkout
+            Continue to Checkout
           </button>
         </>
       )}
