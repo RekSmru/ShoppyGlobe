@@ -7,13 +7,22 @@ function ProductItem({ product }) {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
+  const handleAddToCart = (product) => {
+  dispatch(addToCart(product));
+  alert("✅ Added to cart!");
+};
+
   return (
     <div className="product-card">
       <img src={product.thumbnail} alt={product.title} className="product-image" loading="lazy" />
 
-      <div className="icon add-cart" onClick={() => dispatch(addToCart(product))} title="Add to Cart">
-        🛒
-      </div>
+      <div
+  className="icon add-cart"
+  onClick={() => handleAddToCart(product)}
+  title="Add to Cart"
+>
+  🛒
+</div>
 
       <div className="icon details" onClick={() => navigate(`/product/${product.id}`)} title="View Details">
         🔗
