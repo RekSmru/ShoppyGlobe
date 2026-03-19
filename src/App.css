@@ -211,6 +211,44 @@ body {
   padding: 20px;
 }
 
+/* @media (max-width: 600px) {
+
+  .rotatingText-description {
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  /* OUTLINE / NEON TEXT */
+  /* .rotating-word-flashing {
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+
+    color: transparent;
+    -webkit-text-stroke: 2px #a855f7;
+
+    text-shadow:
+      0 0 5px rgba(168, 85, 247, 0.6),
+      0 0 10px rgba(168, 85, 247, 0.4);
+
+    letter-spacing: 2px;
+
+    animation: flash 1s infinite alternate;
+  }
+
+} */
+
+/* FLASH ANIMATION */
+/* @keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+} */ */
+
 /* Category Grid */
 .category-grid {
   display: flex;

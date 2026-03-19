@@ -62,8 +62,9 @@ function ProductList() {
           marginBottom: "20px",
           width: "80%",
           maxWidth: "400px",
-          borderRadius: "5px",
+          borderRadius: "10px",
           border: "1px solid #ccc",
+         
         }}
       />
 
