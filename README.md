@@ -39,21 +39,28 @@ src
 │   ├── Header.jsx
 │   ├── Header.css
 │   └── ProductItem.jsx
-│
+|__ data
+|   |__ categories.js
+|
+|___hooks
+|   |__useProducts.jsx 
+|
 ├── pages
 │   ├── Home.jsx
-│   ├── BrowseBooks.jsx
-│   ├── BookDetails.jsx
-│   ├── AddBook.jsx
-│   └── NotFound.jsx
+│   ├── Cart.jsx
+│   ├── Checkout.jsx
+│   ├── NotFound.jsx
+│   |── ProductDetail.jsx
+|   |__ ProductList.jsx
 │
-├── data
-│   └── booksData.js
-│
-├── img
-│   └── genre images
-│
-├── App.jsx
+├── redux
+│   |__ cartSlice.js
+|   |__ searchSlice.js
+|   |__ store.js
+│   
+│__ App.css
+|__ index.css
+|── App.jsx
 └── main.jsx
 ```
 
@@ -62,13 +69,14 @@ src
 1. Clone the repository
 
 ```
-git clone https://github.com/RekSmru/Epic-Library-Book-Management.git
+git clone https://github.com/RekSmru/ShoppyGlobe.git
+
 ```
 
 2. Navigate to the project folder
 
 ```
-cd Epic-Library-Book-Management
+cd ShoppyGlobe
 
 ```
 
@@ -95,9 +103,9 @@ http://localhost:5173
 ## Screens Included
 
 * Home Page
-* Browse Books Page
-* Book Details Page
-* Add Book Page
+* Products Page
+* product Details Page
+* Checkout page
 * 404 Page Not Found
 
 
