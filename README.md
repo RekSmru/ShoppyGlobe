@@ -1,6 +1,6 @@
 # E-Commerce UI Project
 
-A modern responsive e-commerce front-end built with React, featuring dynamic product display, rotating promotional text, and interactive UI components.
+ShoppyGlobe is a modern, responsive e-commerce front-end application built with React. It features dynamic product rendering, interactive UI components, and a clean, mobile-first design.
 
 ## Features
 
@@ -8,7 +8,7 @@ A modern responsive e-commerce front-end built with React, featuring dynamic pro
 
 🔄 Rotating promotional text (animated hero section)
 
-🛒 Add to Cart functionality using localStorage
+🛒 Add to Cart functionality 
 
 🧾 Product details page
 
@@ -26,7 +26,8 @@ A modern responsive e-commerce front-end built with React, featuring dynamic pro
 * React 
 * React Router DOM
 * JavaScript 
-* CSS3 (Custom + Media Queries)
+* Redux Toolkit
+* CSS (Custom + Media Queries)
 * LocalStorage for cart persistence
 * DummyJSON API (https://dummyjson.com/products)*
 
@@ -100,12 +101,44 @@ npm run dev
 http://localhost:5173
 ```
 
-## Screens Included
+## API Integration
+This project uses the DummyJSON API to fetch product data:
 
-* Home Page
-* Products Page
-* product Details Page
-* Checkout page
-* 404 Page Not Found
+```
+https://dummyjson.com/products
+
+```
+
+
+## Screens Included
+🏠 Home Page
+
+📦 Products Listing Page
+
+🔍 Product Details Page
+
+🛒 Cart Page
+
+💳 Checkout Page
+
+❌ 404 Not Found Page
+
+Key Concepts Implemented
+
+React Hooks (useState, useEffect)
+
+Custom Hooks (useProducts)
+
+Redux Toolkit (state management)
+
+Dynamic Routing (/product/:id)
+
+Lazy Loading & Code Splitting
+
+Responsive UI Design
+
+
+## Author
+* Smruti Singha
 
 
